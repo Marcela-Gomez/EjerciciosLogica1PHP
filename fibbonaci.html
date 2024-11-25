@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fibbonaci</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Fibonnaci</title>
 </head>
 <body>
-    <div>
-        <div>
-           <a href="./fibbonaci.html">Serie de fibbonaci</a>
+    <div class="navbar">
+        <div class="itemsNav">
+           <a href="./fibbonaci.html">Serie de Fibonnaci</a>
            <a href="./numerosPrimo.html">¿Es número primo?</a>
-           <a href="">¿Es un palindromo?</a>
+           <a href="./palindromo.html">¿Es un palindromo?</a>
         </div>
 
-        <div>
+        <div class="home">
             <a href="./index.html">Inicio</a>
         </div>
     </div>
     <form action="fibonacci.php" method="post">
-        <label for="numero">Ingrese el número de digitos de la serie de fibbonaci que desea ver:</label>
+        <label for="numero">Ingrese el número de digitos de la serie de fibonnaci que desea ver:</label>
         <input type="number" name="numero" class="inputNumber">
         <button type="submit">Enviar</button>
     </form>

@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fibbonaci</title>
+    <link rel="stylesheet" href="style.css">
+    <title>fibonnaci</title>
 </head>
 <body>
-    <div>
-        <div>
-           <a href="./fibbonaci.html">Serie de fibbonaci</a>
-           <a href="">¿Es número primo?</a>
-           <a href="">¿Es un palindromo?</a>
+<div class="navbar">
+        <div class="itemsNav">
+           <a href="./fibbonaci.html">Serie de Fibonnaci</a>
+           <a href="./numerosPrimo.html">¿Es número primo?</a>
+           <a href="./palindromo.html">¿Es un palindromo?</a>
         </div>
 
-        <div>
+        <div class="home">
             <a href="./index.html">Inicio</a>
         </div>
     </div>
@@ -38,7 +39,7 @@ function serieFibonacci($n) {
     }
     //mostramos los resultados
     echo '<h1>Los primeros ' . $n . ' números de la serie de Fibonacci son: </h1>'; 
-    echo $serie;
+    echo '<p>' . $serie . '</p>';
 };
 //llamamos a la funcion y enviamos el valor de n
 serieFibonacci($n);
